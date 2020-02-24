@@ -2,7 +2,10 @@
 
 #goals:  
 #Time + date
-echo -e "\n Current Time and date \n" > McNeely_outfile.txt
+###To append additional info to output file, change initial > to >>
+###To start output file from the beginning, change initial >> to >
+
+echo -e "\n Current Time and date \n" >> McNeely_outfile.txt
 TimeDate=`date | awk '{print ( $4, $5, $2, $3)}'`
 
 echo -e $TimeDate >> McNeely_outfile.txt
