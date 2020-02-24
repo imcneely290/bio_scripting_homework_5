@@ -2,21 +2,26 @@
 
 #goals:  
 #Time + date
-echo "Current Date and Time" > McNeely_outfile.txt
+echo -e "\n Current Time and date \n" > McNeely_outfile.txt
+TimeDate=`date | awk '{print ( $4, $5, $2, $3)}'`
 
-date >> McNeely_outfile.txt
+echo -e $TimeDate >> McNeely_outfile.txt
+
 
 #list of all logged in users
 
-echo "list of current users" >> McNeely_outfile.txt
+echo -e "\n\n List of current users \n" >> McNeely_outfile.txt
 
 NameList=`who|awk '{print ($1)}'`
+#Namelist1=`column -t $NameList`
 
 echo $NameList >> McNeely_outfile.txt
 
 #system uptime
 
-UpTime=`w | awk '{print ($2)}'`
+echo -e "\n\n System Uptime \n" >> McNeely_outfile.txt
+UpTime=`uptime | awk '{print ($3, $4, $5)}'| tr -d ,`
+echo "Up "$UpTime >> McNeely_outfile.txt
 
 #write output to log file with readable format
 

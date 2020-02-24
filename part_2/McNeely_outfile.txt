@@ -1,4 +1,14 @@
-Current Date and Time
-Wed Feb 19 17:15:33 CST 2020
-list of current users
-hssdpp uahkxc aubmxa ualanv aubcls50 aubszb aubcls91 aubcls130 aubnxb aubmxa aubcls66 ualprj usadxh ualljq asndcy aubcls65 aubcls73 aubcls157 ualjxs aubcls98 hsscls18 aubcls62 aubbxb
+
+ Current Time and date 
+
+14:01:07 CST Feb 24
+
+
+ List of current users 
+
+ualanv uahkxc ualcls22 aubmmw usasyb ualprj aubszb uahpxb ualprj uabcls12 aubcls57 aubcls91 usadxh ualljq asndcy ualljq ualmab ualpss ualmab aubcls57 aubmes uahapm
+
+
+ System Uptime 
+
+Up 68 days 21:25
