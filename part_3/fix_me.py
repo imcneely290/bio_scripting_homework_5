@@ -1,12 +1,11 @@
-#! /bin/bash/python3
+#!/bin/bash/python3
 
 # Reading data from the user's input
-#print("Enter a : ")
+
 a = input("Enter number a : ")
 
 print("You entered", a, "which is a", type(a))
 
-#print("Enter b : ")
 b = input("Enter number b : ")
 
 print("You entered", b, "which is a", type(b))
@@ -19,8 +18,7 @@ print("You entered", b, "which is a", type(b))
 print("Let's do some math with those as integers.")
 
 a = int(a)
-b = 
-int(b)
+b = int(b)
 
 print("What is", a, "now?", type(a))
 print("What is", b, "now?", type(b))
@@ -84,9 +82,6 @@ remainder = a % b
 print("a % b =", remainder, ", which is a", type(remainder))
 
 power = a ** b
-
-
-
 print("a ** b =",
         power,
         ", which is a",
