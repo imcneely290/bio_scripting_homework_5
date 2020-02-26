@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Reading data from the user's input
-echo 'Provide numbers a and b' #all i had to change to make it work.  
-                               #script runs fine if proper inputs are provided. 
+echo 'Provide numbers a, b, and c'  #Initially all I had to change to make it work.  
+                                    #script runs fine if proper inputs are provided. 
 echo 'Enter a : '
 read a
 echo 'Enter b : ' 
@@ -10,7 +10,6 @@ read b
 
 echo 'Enter c : '
 read c
-
 
 
 add=$((a + b))
